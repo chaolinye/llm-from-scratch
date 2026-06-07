@@ -36,3 +36,4 @@ if __name__ == "__main__":
     )
     print(f"Output:{out}")
     print(f"Output length:{len(out[0])}")
+    print(tokenizer.decode(out.squeeze(0).tolist()))
